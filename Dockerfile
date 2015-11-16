@@ -41,7 +41,7 @@ RUN pacman -S --noconfirm xorg-server
 # catalyst-libgl and mesa-libgl (libgl)
 RUN yes | pacman -U /var/abs/local/catalyst-utils/catalyst-utils-*-x86_64.pkg.tar.xz \
                     /var/abs/local/catalyst-utils/opencl-catalyst-*-x86_64.pkg.tar.xz \
-                    /var/abs/local/catalyst-utils/catalyst-libgl-15.5-1-x86_64.pkg.tar.xz
+                    /var/abs/local/catalyst-utils/catalyst-libgl-*-x86_64.pkg.tar.xz
 
 #RUN pacman -S --noconfirm git
 #RUN su -c "cd /var/abs/local/clinfo && makepkg" - buildbot
